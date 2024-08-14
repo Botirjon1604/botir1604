@@ -1,0 +1,127 @@
+
+.company_title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+    color: #242d52;
+    padding-bottom: 24px;
+    width: 332px;
+}
+
+
+
+.company_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #242d52;
+    opacity: 0.5;
+    width: 323px;
+    padding-bottom: 52px;
+}
+
+
+.company_btn {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+
+
+    color: #fff;
+    border-radius: 39px;
+    width: 40px;
+    height: 39px;
+    padding: 6px 20px;
+    background: #f3603c;
+    
+
+}
+
+.company_title2 {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #242d52;
+    width: 227px;
+    padding-bottom: 19px;
+
+}
+
+.company_text2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #242d52;
+    opacity: 0.5;
+    width: 345px;
+    padding-bottom: 40px;
+}
+
+.company_btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company_item2 {
+    display: flex;
+    gap: 28px;
+}
+
+.company_list2 {
+    padding-bottom: 165px;
+}
+
+
+
+@media screen and (min-width:768px) {
+    .company_block {
+        display: flex;
+        justify-content: space-between;
+    
+    }
+
+    .teams_content {
+        text-align: start;
+        width: 445px;
+    }
+
+    .company_title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+        color: #242d52;
+        padding-bottom: 24px;
+        width: 445px;
+    }
+
+    .company_text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 162%;
+        color: #242d52;
+        opacity: 0.5;
+        width: 300px;
+    }
+
+    .company_title2 {
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: -0.02em;
+        color: #242d52;
+        width: 227px;
+        padding-bottom: 19px;
+    
+    }
+
+    .company_text2 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 162%;
+        color: #242d52;
+        opacity: 0.5;
+        width: 445px;
+        padding-bottom: 40px;
+    }
+}

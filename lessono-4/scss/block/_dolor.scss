@@ -1,0 +1,86 @@
+.dolor {
+    padding-top: 128px;
+}
+
+.dolor_block {
+    text-align: center;
+}
+
+.dolor_box {
+    max-width: 676px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 273px;
+}
+
+.dolor_title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 114%;
+    text-align: center;
+    color: #828282;
+}
+
+.dolor_text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    color: #828282;
+}
+
+.dolor_sub_title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 114%;
+    color: #828282;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.dolor_sub_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 178%;
+    color: #828282;
+}
+
+.dolor_link {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 131%;
+    letter-spacing: 0.12em;
+    color: #fff;
+    border-radius: 10px;
+    width: 160px;
+    height: 56px;
+    background: #828282;
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .dolor_bord {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 93px;
+    }
+
+
+
+    .dolor_link {
+        display: inline-block;
+    }
+
+    .dolor_content {
+        text-align: start;
+        width: 635px;
+        height: 233px;
+    }
+
+    .dolor_sub_text {
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,47 @@
+.goal_block {
+    border-radius: 10px;
+    width: 1280px;
+    height: 474px;
+    background: #2c343e;
+    margin-top: 256px;
+}
+
+.goal_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+    height: 474px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
+.goal_img {
+    width: 445px;
+    height: 474x;
+    margin-bottom: 150px;
+}
+
+
+.goal_bort {
+    width: 540px;
+    height: 210px;
+}
+
+.goal_title {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 120%;
+    color: #fefcf7;
+    margin-bottom: 32px;
+}
+
+.goal_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #fefcf7;
+    opacity: 0.8;
+}

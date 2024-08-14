@@ -1,0 +1,32 @@
+.home_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 44px;
+}
+
+.home_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 283px;
+    height: 15px;
+}
+
+.home_item {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 125%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #83888f;
+}
+
+.home_link {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 125%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #333d4b;
+}

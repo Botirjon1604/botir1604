@@ -1,0 +1,62 @@
+.logo {
+   padding-top: 73px;
+   padding-bottom: 120px;
+}
+
+
+.logo_menu {
+   width: 25px;
+   height: 18px;
+ 
+   background-color: transparent;
+   border: none;
+   background-repeat: no-repeat;
+   background-image: url('../img/btn.svg');
+}
+
+.logo_block {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.logo_item {
+   font-weight: 500;
+   font-size: 18px;
+   color: #242d52;
+}
+
+
+.logo_list {
+   display: flex;
+   gap: 32px;
+   display: none;
+}
+
+.logo_btn {
+   border-radius: 22px;
+   width: 137px;
+   height: 44px;
+   box-shadow: 0 15px 15px -10px #ff9f8e;
+   background: #f98f75;
+   font-size: 13px;
+   color: #fcf6f5;
+   display: none;
+}
+
+
+@media screen and (min-width:768px) {
+   .logo_list {
+      display: flex;
+
+   }
+
+   .logo_menu {
+      display: none;
+   }
+
+   .logo_btn {
+      display: inline-block;
+   }
+}
+

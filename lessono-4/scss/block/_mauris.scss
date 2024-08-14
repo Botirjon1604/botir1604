@@ -1,0 +1,73 @@
+.mauris {
+    padding-top: 64px;
+}
+
+.mauris_block {
+    text-align: center;
+}
+
+.mauris_img {
+    margin-bottom: 53px;
+    text-align: center;
+}
+
+.mauris_title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 114%;
+    color: #828282;
+    margin-bottom: 16px;
+}
+
+.mauris_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 178%;
+    color: #828282;
+}
+
+.mauris_link {
+    border-radius: 10px;
+    width: 212px;
+    height: 56px;
+    background: #828282;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 131%;
+    letter-spacing: 0.12em;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 21px;
+}
+
+.mauris_link_1 {
+    border-radius: 10px;
+    width: 212px;
+    height: 56px;
+    background: #b6b6b6;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 131%;
+    letter-spacing: 0.12em;
+    color: #fff;
+}
+
+@media screen and (min-width:768px) {
+    .mauris_block {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        gap: 94px;
+    }
+
+    .mauris_box {
+        width: 635px;
+        height: 232px;
+        text-align: start;
+    }
+
+    .mauris_link_1 {
+        margin-left: 20px;
+    }
+}

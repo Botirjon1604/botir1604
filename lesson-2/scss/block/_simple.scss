@@ -1,0 +1,45 @@
+.simple {
+    background-image: url("../img/great_bgi.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.simple_block {
+    margin-top: 38px;
+    height: 600px;
+}
+
+.simple_box {
+    width: 493px;
+    height: 367px;
+    padding-top: 123px;
+    margin-left: 85px;
+
+}
+
+.simple_title {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 100%;
+    color: #fefcf7;
+}
+
+.simple_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #fefcf7;
+    opacity: 0.8;
+    margin-bottom: 56px;
+    margin-top: 32px;
+}
+
+
+
+.simple_link {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 139%;
+    color: #fefcf7;
+    margin-top: 15px;
+}

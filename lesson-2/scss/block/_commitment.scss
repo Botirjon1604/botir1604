@@ -1,0 +1,37 @@
+.commitment_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+    height: 520px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 168px;
+}
+
+.commitment_img {
+    width: 445px;
+    height: 520px;
+}
+
+
+.commitment_bort {
+    width: 540px;
+    height: 340px;
+}
+
+.commitment_title {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 120%;
+    color: #333d4b;
+    margin-bottom: 32px;
+}
+
+.commitment_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #333d4b;
+    opacity: 0.8;
+}

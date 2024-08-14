@@ -1,0 +1,55 @@
+.ultricies {
+    padding-top: 128px;
+    background: #dbdbdb;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ultricies_box {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ultricies_title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 114%;
+    text-align: center;
+    color: #828282;
+}
+
+.ultricies_text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    color: #828282;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    
+}
+
+.ultricies_btn {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 131%;
+    letter-spacing: 0.12em;
+    color: #fff;
+    border-radius: 10px;
+    width: 160px;
+    height: 56px;
+    background: #828282;
+    margin-bottom: 97px;
+}
+
+@media screen and (min-width:768px) {
+    .ultricies_box {
+        width: 676px;
+        height: 224px;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 88px;
+    }
+}

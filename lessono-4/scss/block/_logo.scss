@@ -1,0 +1,70 @@
+.logo {
+    padding-top: 73px;
+    padding-bottom: 120px;
+}
+
+
+.logo_menu {
+    border-radius: 10px;
+    width: 48px;
+    height: 48px;
+    background: #828282;
+    border: none;
+    background-repeat: no-repeat;
+    background-image: url('../../img/btn.svg');
+    background-position: center center;
+}
+
+.logo_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_link {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 131%;
+    letter-spacing: 0.12em;
+    text-align: right;
+    color: #828282;
+}
+
+
+.logo_list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    justify-content: space-between;
+    display: none;
+
+}
+
+.logo_btn {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 131%;
+    letter-spacing: 0.12em;
+    color: #fff;
+    border-radius: 10px;
+    width: 98px;
+    height: 56px;
+    background: #828282;
+    display: none;
+}
+
+
+@media screen and (min-width:768px) {
+    .logo_list {
+        display: flex;
+
+    }
+
+    .logo_menu {
+        display: none;
+    }
+
+    .logo_btn {
+        display: inline-block;
+    }
+}

@@ -1,0 +1,52 @@
+.imperdiet {
+    padding-top: 128px;
+}
+
+.imperdiet_box {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 811px;
+}
+
+.imperdiet_title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 114%;
+    text-align: center;
+    color: #828282;
+}
+
+.imperdiet_text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    color: #828282;
+}
+
+.imperdiet_btn {
+    border-radius: 10px;
+    width: 160px;
+    height: 56px;
+    background: #828282;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 131%;
+    letter-spacing: 0.12em;
+    color: #fff;
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .imperdiet_box {
+        width: 676px;
+        margin-bottom: 150px;
+    }
+
+    .imperdiet_btn {
+        display: inline-block;
+        margin-top: 697px;
+        margin-bottom: 150px;
+    }
+}
